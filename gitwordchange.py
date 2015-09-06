@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Script to count words after each commit
-@author: François
+@author: Kevin
 @organization: INRIA
 """
 __version__='$Id$'
@@ -46,7 +46,8 @@ conf = {
         'authors_top': 5,
         'commit_end': '',
         'linear_linestats': 1,
-        'dir' : 'doc/manuscrit-francois',
+        # the directory is here
+        'dir' : '~/mywiki/wikidata',
         'initbranch' : 'manuscript',
         'adversebranch' : 'manuscript',
 #        'commit_begin' : '2e7b05e644b9893aa5a509963e33bd98ba3ba6b7',
