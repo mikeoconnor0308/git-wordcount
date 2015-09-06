@@ -3,7 +3,7 @@
 """
 Script to count words after each commit
 @author: Kevin
-@organization: INRIA
+@organization: Northwestern
 """
 __version__='$Id$'
 
@@ -46,14 +46,14 @@ conf = {
         'authors_top': 5,
         'commit_end': '',
         'linear_linestats': 1,
-        # the directory is here
+        # Change repo directory here
         'dir' : '~/mywiki/wikidata',
-        'initbranch' : 'manuscript',
-        'adversebranch' : 'manuscript',
+        'initbranch' : 'wiki',
+        'adversebranch' : 'wiki',
 #        'commit_begin' : '2e7b05e644b9893aa5a509963e33bd98ba3ba6b7',
 #        'commit_begin' : '512ede70596053900ad247414b4bb7794f097f00'
         'commit_begin' : '',
-        'authorpattern': 'garillot',
+        'authorpattern': 'besm',
         'checkoutdir' : '~/coq',
 }
 
